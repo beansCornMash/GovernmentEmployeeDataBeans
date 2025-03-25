@@ -58,7 +58,7 @@ The script respects server load with a small delay (time.sleep(0.5)) between API
 Only the 'Salary' column is converted to numeric for analysis — other monetary columns (e.g., 'Bonus') can be handled similarly if needed.
 
 # Inspiration
-I saw an article from the USA Small Business Association that says that the average salary of an SBA employee is over $132,000.
+I saw an article from the USA Small Business Association [here](https://www.sba.gov/article/2025/03/21/small-business-administration-announces-agency-wide-reorganization) that says that the average salary of an SBA employee is over $132,000.
 I know government data is available, so I decided to look it up myself. I went to the federal data center, went to this
 url in particular, https://www.fedsdatacenter.com/federal-pay-rates/index.php?y=2024&n=&l=&a=SMALL+BUSINESS+ADMINISTRATION&o=,
 and then I got the underlying api GET request for the salary data. Then I used ChatGPT to write myself a python script
